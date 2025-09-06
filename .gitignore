@@ -1,0 +1,36 @@
+.env
+*.env
+.env.*
+!.env.example
+
+# 2. Python / Backend Specific
+/backend/venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# 3. Node.js / Frontend Specific
+/frontend/node_modules/
+node_modules/
+
+# output folders
+/frontend/dist/
+dist/
+
+# log files and debug output.
+npm-debug.log*
+yarn-error.log
+yarn-debug.log
+
+# dataset (i will upload the dataset on the drive and provide the link in the README.md)
+/backend/DOCS/
+
+# 4. IDE & System Files (Good practice)
+.vscode/
+.idea/
+
+# OS-generated files.
+.DS_Store
+Thumbs.db
