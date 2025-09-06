@@ -5,8 +5,8 @@ from pydantic import BaseModel
 import os
 import time
 
-from backend.core.ingest import create_embeddings_and_store, load_and_chunk_document_from_string
-from backend.core.query import initialize_retriever, retrieve_and_rerank, generate_answer_with_citations
+from core.ingest import create_embeddings_and_store, load_and_chunk_document_from_string
+from core.query import initialize_retriever, retrieve_and_rerank, generate_answer_with_citations
 
 app = FastAPI(title="Mini RAG App")
 
